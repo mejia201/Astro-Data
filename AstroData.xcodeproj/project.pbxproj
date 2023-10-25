@@ -11,6 +11,10 @@
 		CAC4C2162AE9883800627EC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4C2152AE9883800627EC9 /* ContentView.swift */; };
 		CAC4C2182AE9883900627EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC4C2172AE9883900627EC9 /* Assets.xcassets */; };
 		CAC4C21C2AE9883900627EC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC4C21B2AE9883900627EC9 /* Preview Assets.xcassets */; };
+		CAC4C2242AE9B17900627EC9 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = CAC4C2232AE9B17900627EC9 /* URLImage */; };
+		CAC4C2262AE9B17900627EC9 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = CAC4C2252AE9B17900627EC9 /* URLImageStore */; };
+		CAC4C2282AE9B8D200627EC9 /* EstructuraPregunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4C2272AE9B8D200627EC9 /* EstructuraPregunta.swift */; };
+		CAC4C22C2AE9B94500627EC9 /* QuizQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4C22B2AE9B94500627EC9 /* QuizQuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,8 @@
 		CAC4C2172AE9883900627EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAC4C2192AE9883900627EC9 /* AstroData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AstroData.entitlements; sourceTree = "<group>"; };
 		CAC4C21B2AE9883900627EC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAC4C2272AE9B8D200627EC9 /* EstructuraPregunta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstructuraPregunta.swift; sourceTree = "<group>"; };
+		CAC4C22B2AE9B94500627EC9 /* QuizQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC4C2262AE9B17900627EC9 /* URLImageStore in Frameworks */,
+				CAC4C2242AE9B17900627EC9 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +60,9 @@
 		CAC4C2122AE9883800627EC9 /* AstroData */ = {
 			isa = PBXGroup;
 			children = (
+				CAC4C22A2AE9B91F00627EC9 /* Estructuras */,
 				CAC4C2132AE9883800627EC9 /* AstroDataApp.swift */,
+				CAC4C22B2AE9B94500627EC9 /* QuizQuestionView.swift */,
 				CAC4C2152AE9883800627EC9 /* ContentView.swift */,
 				CAC4C2172AE9883900627EC9 /* Assets.xcassets */,
 				CAC4C2192AE9883900627EC9 /* AstroData.entitlements */,
@@ -67,6 +77,14 @@
 				CAC4C21B2AE9883900627EC9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAC4C22A2AE9B91F00627EC9 /* Estructuras */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4C2272AE9B8D200627EC9 /* EstructuraPregunta.swift */,
+			);
+			path = Estructuras;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +103,10 @@
 			dependencies = (
 			);
 			name = AstroData;
+			packageProductDependencies = (
+				CAC4C2232AE9B17900627EC9 /* URLImage */,
+				CAC4C2252AE9B17900627EC9 /* URLImageStore */,
+			);
 			productName = AstroData;
 			productReference = CAC4C2102AE9883800627EC9 /* AstroData.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +135,9 @@
 				Base,
 			);
 			mainGroup = CAC4C2072AE9883700627EC9;
+			packageReferences = (
+				CAC4C2222AE9B17900627EC9 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = CAC4C2112AE9883800627EC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC4C2282AE9B8D200627EC9 /* EstructuraPregunta.swift in Sources */,
+				CAC4C22C2AE9B94500627EC9 /* QuizQuestionView.swift in Sources */,
 				CAC4C2162AE9883800627EC9 /* ContentView.swift in Sources */,
 				CAC4C2142AE9883800627EC9 /* AstroDataApp.swift in Sources */,
 			);
@@ -355,6 +382,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CAC4C2222AE9B17900627EC9 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CAC4C2232AE9B17900627EC9 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAC4C2222AE9B17900627EC9 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		CAC4C2252AE9B17900627EC9 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAC4C2222AE9B17900627EC9 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CAC4C2082AE9883700627EC9 /* Project object */;
 }
