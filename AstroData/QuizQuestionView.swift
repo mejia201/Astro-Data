@@ -102,11 +102,14 @@ struct QuizQuestionView: View {
                          }
                      }
                      
-                     if !questions.isEmpty {
+                     if !questions.isEmpty && questions.count == numberOfQuestions{
                          DispatchQueue.main.async {
                              isLoading = false
                              currentQuestionIndex = 0
                          }
+                     }else{
+                         fetchQuestionsFromNASA()
+
                      }
                  }
              }

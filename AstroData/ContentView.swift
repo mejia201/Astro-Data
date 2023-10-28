@@ -58,7 +58,7 @@ struct ContentView: View {
                                                 .frame(height: 300)
                                             
                                             //Dirigir a filtro 1
-                                            NavigationLink(destination: QuizQuestionView()) {
+                                            NavigationLink(destination: AsteroidsView()) {
                                                 Text("Asteroides")
                                                     .font(.system(size: 20, weight: .bold))
                                                     .foregroundColor(.white)
@@ -71,7 +71,7 @@ struct ContentView: View {
                                             
                                             //Dirigir a filtro 2
                                             NavigationLink(destination: QuizQuestionView()) {
-                                                Text("Texto 2")
+                                                Text("Imagenes")
                                                     .font(.system(size: 20, weight: .bold))
                                                     .foregroundColor(.white)
                                                     .frame(width: 200, height: 50)
@@ -83,7 +83,7 @@ struct ContentView: View {
                                            
                                             //Dirigir al quiz
                                             NavigationLink(destination: QuizQuestionView()) {
-                                                Text("Ir a Quiz")
+                                                Text("Quiz")
                                                     .font(.system(size: 20, weight: .bold))
                                                     .foregroundColor(.white)
                                                     .frame(width: 200, height: 50)
