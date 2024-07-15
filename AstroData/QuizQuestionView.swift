@@ -102,7 +102,7 @@ struct QuizQuestionView: View {
                          }
                      }
                      
-                     if !questions.isEmpty && questions.count == numberOfQuestions{
+                     if !questions.isEmpty{
                          DispatchQueue.main.async {
                              isLoading = false
                              currentQuestionIndex = 0

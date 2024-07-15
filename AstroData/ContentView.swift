@@ -69,8 +69,8 @@ struct ContentView: View {
                                                     .shadow(radius: 5)
                                             }
                                             
-                                            //Dirigir a filtro 2
-                                            NavigationLink(destination: QuizQuestionView()) {
+                                           //Dirigir a la galeria
+                                            NavigationLink(destination: GaleryView()) {
                                                 Text("Imagenes")
                                                     .font(.system(size: 20, weight: .bold))
                                                     .foregroundColor(.white)

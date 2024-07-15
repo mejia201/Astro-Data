@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA73FE5F2AEB6ECF0002FD1B /* MissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73FE5E2AEB6ECF0002FD1B /* MissionsView.swift */; };
+		CA7D364A2AEDB19E00278E41 /* GaleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D36492AEDB19E00278E41 /* GaleryView.swift */; };
 		CA85B3A12AEC2E09005D742C /* AsteroidsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85B3A02AEC2E09005D742C /* AsteroidsView.swift */; };
 		CAC4C2142AE9883800627EC9 /* AstroDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4C2132AE9883800627EC9 /* AstroDataApp.swift */; };
 		CAC4C2162AE9883800627EC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4C2152AE9883800627EC9 /* ContentView.swift */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CA73FE5E2AEB6ECF0002FD1B /* MissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsView.swift; sourceTree = "<group>"; };
+		CA7D36492AEDB19E00278E41 /* GaleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleryView.swift; sourceTree = "<group>"; };
 		CA85B3A02AEC2E09005D742C /* AsteroidsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsView.swift; sourceTree = "<group>"; };
 		CAC4C2102AE9883800627EC9 /* AstroData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC4C2132AE9883800627EC9 /* AstroDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroDataApp.swift; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 				CAC4C2132AE9883800627EC9 /* AstroDataApp.swift */,
 				CAC4C22B2AE9B94500627EC9 /* QuizQuestionView.swift */,
 				CAC4C2152AE9883800627EC9 /* ContentView.swift */,
-				CA73FE5E2AEB6ECF0002FD1B /* MissionsView.swift */,
+				CA7D36492AEDB19E00278E41 /* GaleryView.swift */,
 				CAC4C2172AE9883900627EC9 /* Assets.xcassets */,
 				CAC4C2192AE9883900627EC9 /* AstroData.entitlements */,
 				CAC4C21A2AE9883900627EC9 /* Preview Content */,
@@ -172,8 +172,8 @@
 			files = (
 				CAC4C2282AE9B8D200627EC9 /* EstructuraPregunta.swift in Sources */,
 				CA85B3A12AEC2E09005D742C /* AsteroidsView.swift in Sources */,
+				CA7D364A2AEDB19E00278E41 /* GaleryView.swift in Sources */,
 				CAC4C22C2AE9B94500627EC9 /* QuizQuestionView.swift in Sources */,
-				CA73FE5F2AEB6ECF0002FD1B /* MissionsView.swift in Sources */,
 				CAC4C2162AE9883800627EC9 /* ContentView.swift in Sources */,
 				CAC4C2142AE9883800627EC9 /* AstroDataApp.swift in Sources */,
 			);
